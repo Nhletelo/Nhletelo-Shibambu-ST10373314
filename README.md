@@ -1,24 +1,37 @@
-# CookbookApp
-Cookbook application using C# .net framework, asp.net, sql
+**Accessing the Zip Folder**
+1. Download Zip Folder: The user should first download the zip folder containing the project. This might have been provided as a download link or attached to a message.
 
-COMP 488 – Rapid App Development using .NET
+2. Locate Downloaded Zip File: Once the download is complete, the user should locate the downloaded zip file in their computer's file system. This is typically found in the "Downloads" folder unless specified otherwise during the download.
 
-Project Proposal
-Project Name: Simple Cooking (Cooking recipe management app)
+**Extracting the Project**
+1. Extract Zip File: Right-click on the downloaded zip file and select "Extract All..." (Windows) or double-click the zip file (Mac). This action will extract the contents of the zip file into a new folder.
 
+2. Choose Extraction Location: The user can choose a destination folder for the extracted contents. They can use the default location suggested by their operating system or specify a different folder.
 
-Members: Nhletelo Shibambu
+3. Complete Extraction: After selecting the extraction location, click "Extract" (Windows) or wait for the extraction process to complete (Mac).
 
+**To take the extracted project folder into Visual Studio 2022 for development and execution, follow these steps:**
 
+1. Opening the Project in Visual Studio 2022
+Launch Visual Studio 2022: Open Visual Studio 2022 on your computer. If you don't have Visual Studio 2022 installed, you can download it from the official Visual Studio website.
 
-Project Description: A simple app where users upload recipe information along with visuals (pictures, drawings, etc.) A registration page will be created so that users wishing to upload recipes or visuals can do so, otherwise the recipes will be available for all to see without registration. This basically is a share form application where people will be sharing information that is stored and accessed on a secure database.The app will feature different categories, such as 'breakfast', 'lunch', 'dinner', 'vegetarian food', etc? Users will also be able to upload videos and provide contact information, mainly email to communicate with each other (possibly have a comment board).
+2. Open Project Solution: In Visual Studio 2022, go to the "File" menu and select "Open" > "Project/Solution...".
 
+3. Navigate to Project Folder: In the file dialog that appears, navigate to the location where you extracted the project folder.
 
-Functional Details: 
-•	Implement search, sort, and filter algorithms that will allow users to retrieve and view recipes by name, type, cook, or main ingredient(s).
-•	Implement a real time cook assistance feature that will utilize timers and text to voice techniques to provide narration walkthroughs of cooking instructions.
-•	Implement a recipe calculator that will allow users to enter a desired serving size and retrieve recommend ingredients quantities.
-•	Implement ingredient locator feature that will allow users to search (ex. google) for ingredients and retrieve nearby store or web order options, brand, size and price.
+4. Select Project Solution File: Within the project folder, look for a file with the extension .sln (solution file). This file contains information about the project structure and dependencies.
 
+5. Open Solution File: Select the .sln file and click "Open" to open the project solution in Visual Studio 2022.
 
-Tools and Technologies: Visual Studio .Net (VB,C#), MySQL database, 
+6. Building and Running the Project
+Set Startup Project (if needed): If the solution contains multiple projects, right-click on the desired project in the Solution Explorer and select "Set as Startup Project".
+
+7. Configure Project Properties: If necessary, configure project properties such as target framework, build configuration (Debug/Release), and any other project-specific settings.
+
+8. Build Solution: Press Ctrl + Shift + B or go to the "Build" menu and select "Build Solution" to compile the project.
+
+9. Run the Project: Press F5 or go to the "Debug" menu and select "Start Debugging" to run the project. Alternatively, you can use Ctrl + F5 to start without debugging.
+
+**Interacting with the Project in Visual Studio**
+Use Visual Studio Features: Take advantage of Visual Studio's integrated development environment (IDE) features such as code editing, debugging, version control integration, and more to work with and enhance the project.
+
