@@ -1,37 +1,32 @@
-**Accessing the Zip Folder**
-1. Download Zip Folder: The user should first download the zip folder containing the project. This might have been provided as a download link or attached to a message.
+## How to Compile and Run the application
 
-2. Locate Downloaded Zip File: Once the download is complete, the user should locate the downloaded zip file in their computer's file system. This is typically found in the "Downloads" folder unless specified otherwise during the download.
+Please take note that "LiveCharts.wpf" (https://v0.lvcharts.com/) is a necessary NuGet package for this application, to fufill the POE's analysis requirment.
 
-**Extracting the Project**
-1. Extract Zip File: Right-click on the downloaded zip file and select "Extract All..." (Windows) or double-click the zip file (Mac). This action will extract the contents of the zip file into a new folder.
+**Step 1**
+Extract the zipped app folder.
 
-2. Choose Extraction Location: The user can choose a destination folder for the extracted contents. They can use the default location suggested by their operating system or specify a different folder.
+**Step 2**
+Locate the folder you have extracted and Locate the .sin file
 
-3. Complete Extraction: After selecting the extraction location, click "Extract" (Windows) or wait for the extraction process to complete (Mac).
+**Step 3**
+Open the found .sin file in Visual Studio, and compile the application's code.
 
-**To take the extracted project folder into Visual Studio 2022 for development and execution, follow these steps:**
+**Step 4**
+You now have all the source code compiled within visual studio.
+To execute the application click on the Green start button at the top of the screen below the navigation bar.
 
-1. Opening the Project in Visual Studio 2022
-Launch Visual Studio 2022: Open Visual Studio 2022 on your computer. If you don't have Visual Studio 2022 installed, you can download it from the official Visual Studio website.
+## Minimum Requirements 
 
-2. Open Project Solution: In Visual Studio 2022, go to the "File" menu and select "Open" > "Project/Solution...".
+Operating system
 
-3. Navigate to Project Folder: In the file dialog that appears, navigate to the location where you extracted the project folder.
+Windows 10 or higher
 
-4. Select Project Solution File: Within the project folder, look for a file with the extension .sln (solution file). This file contains information about the project structure and dependencies.
+Hardware
 
-5. Open Solution File: Select the .sln file and click "Open" to open the project solution in Visual Studio 2022.
-
-6. Building and Running the Project
-Set Startup Project (if needed): If the solution contains multiple projects, right-click on the desired project in the Solution Explorer and select "Set as Startup Project".
-
-7. Configure Project Properties: If necessary, configure project properties such as target framework, build configuration (Debug/Release), and any other project-specific settings.
-
-8. Build Solution: Press Ctrl + Shift + B or go to the "Build" menu and select "Build Solution" to compile the project.
-
-9. Run the Project: Press F5 or go to the "Debug" menu and select "Start Debugging" to run the project. Alternatively, you can use Ctrl + F5 to start without debugging.
-
-**Interacting with the Project in Visual Studio**
-Use Visual Studio Features: Take advantage of Visual Studio's integrated development environment (IDE) features such as code editing, debugging, version control integration, and more to work with and enhance the project.
-
+ARM64 or x64 processor; Quad-core or better recommended. ARM 32 processors are not supported.
+Minimum of 4 GB of RAM. Many factors impact resources used; we recommend 16 GB RAM for typical professional solutions.
+Windows 365: Minimum 2 vCPU and 8 GB RAM. 4 vCPU and 16 GB of RAM recommended.
+Hard disk space: Minimum of 850 MB up to 210 GB of available space, depending on features installed; typical installations require 20-50 GB of free space. We recommend installing Windows and Visual Studio on a solid-state drive (SSD) to increase performance.
+Video card that supports a minimum display resolution of WXGA (1366 by 768); Visual Studio will work best at a resolution of 1920 by 1080 or higher.
+Minimum resolution assumes zoom, DPI settings, and text scaling are set at 100%. If not set to 100%, minimum resolution should be scaled accordingly. For example, if you set the Windows display ‘Scale and layout’ setting on your Surface Book, which has a 3000x2000 physical display, to 200%, then Visual Studio would see a logical screen resolution of 1500x1000, meeting the minimum 1366x768 requirement. 
+(Admurp, Visual studio 2022 system requirements)
